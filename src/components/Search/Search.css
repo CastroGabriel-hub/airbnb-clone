@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.search{
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.search input, .search button{
+    height: 48px;
+    padding: 0px 16px;
+    border: none;
+    border-radius: 25px;
+}
+
+.search input{
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.search button{
+    margin: 5px;
+    background-color: #FF5A5F;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
