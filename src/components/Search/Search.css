@@ -3,7 +3,6 @@
 .search{
     border: 1px solid #bfbfbf;
     border-radius: 30px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 .search input, .search button{
@@ -14,7 +13,7 @@
 }
 
 .search input{
-    width: 120px;
+    width: 130px;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 14px;

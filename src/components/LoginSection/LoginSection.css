@@ -1,0 +1,19 @@
+.section{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-icons{
+    width: 50px;
+    padding: 8px;
+    border: 1px solid #bfbfbf;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.section, .user-icons{
+    display: flex;
+    align-items: center;
+}

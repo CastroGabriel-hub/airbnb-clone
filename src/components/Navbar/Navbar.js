@@ -1,5 +1,6 @@
 import logo from '../../images/AirbnbLogo.png';
 import Search from '../Search/Search';
+import LoginSection from '../LoginSection/LoginSection';
 import './Navbar.css'
 
 function Navbar(){
@@ -7,6 +8,7 @@ function Navbar(){
         <nav className='navbar'>
             <img src={logo} className='nav-image' />
             <Search />
+            <LoginSection />
         </nav>
     )
 }

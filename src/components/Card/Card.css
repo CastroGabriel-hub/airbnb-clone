@@ -1,0 +1,16 @@
+.card{
+    width: 265px;
+}
+
+.card-opinion{
+    display: flex;
+    align-items: center;
+}
+
+.gray{
+    color: #595959;
+}
+
+.star{
+    color: #FF5A5F;
+}
