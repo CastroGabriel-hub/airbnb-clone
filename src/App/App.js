@@ -21,8 +21,10 @@ function App(){
     return (
         <div className="app">
             <Navbar />
-            {/* <Hero /> */}
-            {cards}
+            <Hero />
+            <section className="cards-list">
+                {cards}
+            </section>
         </div>
     )
 }
