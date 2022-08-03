@@ -9,7 +9,7 @@ function Card(props) {
                 <FaStar className='star'/>
                 <span>{ props.rating }</span>
                 <span className='gray'>({ props.reviewCount }) •</span>
-                <span className='gray'>{ props.country }</span>
+                <span className='gray'>{ props.location }</span>
             </div>
             <p>{ props.title }</p>
             <p><strong>From { props.price }</strong> / person</p>
