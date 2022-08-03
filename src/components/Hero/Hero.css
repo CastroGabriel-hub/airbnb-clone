@@ -7,10 +7,11 @@
 
 .hero-image{
     display: block;
+    width: 830px;
 }
 
 .hero-text{
-    width: 792px;
+    width: 830px;
 }
 
 .hero-image, .hero-text{
