@@ -1,5 +1,6 @@
 .card{
     width: 250px;
+    position: relative;
 }
 
 .card-opinion{
@@ -17,4 +18,14 @@
 
 .star{
     color: #FF5A5F;
+}
+
+.sold-out{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: white;
+    padding: 4px 6px;
+    border-radius: 2px;
+    font-weight: bold;
 }

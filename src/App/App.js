@@ -12,20 +12,16 @@ function App(){
         <div className="app">
             <Navbar />
             <Hero />
-            <section className="cards-list">
 
+            <section className="cards-list">
                 {data.map((item) => {
-                    return <Card 
-                        img={item.image}
-                        rating={item.stats.rating}
-                        reviewCount={item.stats.reviewCount}
-                        location={item.location}
-                        title={item.title}
-                        price={item.price}
+                    return <Card
+                        key={item.id}
+                        {...item}
                     />
                 })}
-                
             </section>
+
         </div>
     )
 }
